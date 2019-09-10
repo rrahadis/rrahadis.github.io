@@ -1,0 +1,214 @@
+
+.header{
+background-color: #0e3463;
+color: white;
+border: 2px solid #ccc;
+}
+
+.header ul{
+	text-align: center;
+	font-family: 'Lexend Deca', sans-serif;
+}
+
+.subheader{
+position: absolute;
+
+margin-right: 75%;
+margin-left: 5%;
+padding-right: 35px;
+padding-left: 0px;
+padding-bottom: 300px;
+padding-top: 40px;
+background-color: #0e3463;
+border: 2px solid #ccc;
+}
+
+.gambar img{
+   margin-left: 50px;
+   width: 150px;
+   height: 150px;
+   border-radius: 50%;
+   border: 2px solid #ccc;
+}
+
+.deskripsi{
+	
+	margin-top: 30px;
+	color: white;
+	text-align: center;	
+}
+
+.nama{
+	font-family: 'Asap Condensed', sans-serif;
+	font-size: 20px;
+}
+
+.job{
+font-family: 'Lexend Deca', sans-serif;
+font-size: 12px;
+}
+
+.kontak{
+	font-family: 'Asap Condensed', sans-serif;
+	font-size: 20px;
+}
+
+.kontak li{
+	text-align: center;
+	margin-top: 20px;
+	display: block;
+	font-size: 15px;
+}
+.email{
+	margin-top: -10px;
+	font-family: 'Asap Condensed', sans-serif;
+	font-size: 15px;
+	margin-bottom: 40px;
+}
+.socmed{
+	padding-left: 40px; 
+	font-family: 'Asap Condensed', sans-serif;
+}
+.socmed ul{
+	padding-left: 5px;
+}
+.isikanan{
+	margin-left: 25%;
+	margin-top: 25px;
+	border: 2px solid white
+}
+.mystory{
+	padding-top: 20px;
+	padding-left: 20px;
+	font-family: 'Lexend Deca', sans-serif;
+}
+.dropbtn {
+	font-family: 'Asap Condensed', sans-serif;
+	border-radius: 20%;
+background-color: #0e3463;
+  color: white;
+  margin-top: 40px;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #63AEF5;
+}
+
+
+.dropdown {
+  position: static;
+}
+
+.garis{
+	border: 2px solid none;
+	position: absolute;
+	margin-left: 8%;
+	margin-top: 53px;
+	background-color: #0e3463;
+	color: #0e3463;
+	padding-right:40%;
+	padding-left:120px; 
+}
+.garis:hover{
+  background-color: #63AEF5;	
+}
+.garis1{
+	border: 2px solid none;
+	position: absolute;
+	margin-left: 7%;
+	margin-top: 50px;
+	background-color: #0e3463;
+	color: #0e3463;	
+	padding-right:40%;
+	padding-left:120px; 
+
+}
+.garis1:hover{
+  background-color: #63AEF5;	
+}
+.dropdown-content {
+  display: none;
+  position: relative;
+  background-color: #f1f1f1;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 10px;
+  margin-right: 20px;
+
+}
+.dropbtn1 {
+	font-family: 'Asap Condensed', sans-serif;
+background-color: #0e3463;
+border-radius: 20%;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  
+}
+
+.dropbtn1:hover, .dropbtn1:focus {
+  background-color: #63AEF5;
+}
+
+.dropdown1 {
+	margin-top: 40px;
+  position: static;
+}
+
+.dropdown-content1 {
+  display: none;
+  position: relative;
+  background-color: #f1f1f1;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 10px;
+  margin-right: 20px;
+
+}
+
+.pendidikan1{
+	position: absolute;
+	text-align: center;
+	padding-right: 50px;
+	margin-left: 40px;
+	margin-right: 70%;
+	padding-bottom: 30px;
+	margin-bottom: -40px;
+	border: 2px solid none;
+}
+.pendidikan2{
+	position: absolute;
+	text-align: center;
+	padding-right: 50px;
+	margin-left: 25%;
+	margin-right: 50%;
+	padding-bottom: 30px;
+	margin-bottom: -40px;
+	border: 2px solid none;
+}
+.pendidikan3{
+	position: absolute;
+	text-align: center;
+	padding-right: 50px;
+	margin-left: 47%;
+	margin-right: 280px;
+	padding-bottom: 60px;
+	margin-bottom: -40px;
+	border: 2px solid none;
+}
+.pendidikan4{
+	position: relative;
+	text-align: center;
+	padding-right: 50px;
+	margin-left: 70%;
+	margin-right: 40px;
+	padding-bottom: 60px;
+	margin-bottom: -40px;
+	border: 2px solid none;
+}
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
